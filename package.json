@@ -23,8 +23,7 @@
         "build": "lerna run build",
         "bump": "node scripts/bump.js",
         "start": "lerna run start --parallel",
-        "test": "lerna run test",
-        "deploy": "cd libs/assign-value-rule-engine && yarn build && npm publish"
+        "test": "lerna run test"
     },
     "devDependencies": {
         "@babel/cli": "^7.5.5",
