@@ -1,0 +1,49 @@
+{
+    "name": "assign-value-rule-engine",
+    "version": "0.0.2",
+    "description": "DHIS2 program rule engine for assign data value actions",
+    "author": "Terje Uglebakken <terjeug@ifi.uio.no>",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "workspaces": [
+        "examples/*",
+        "libs/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hispindia/amr-apps.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hispindia/amr-apps/issues"
+    },
+    "scripts": {
+        "analyze": "lerna analyze",
+        "bootstrap": "lerna bootstrap",
+        "clean": "lerna clean -y",
+        "build": "lerna run build",
+        "bump": "node scripts/bump.js",
+        "start": "lerna run start --parallel",
+        "test": "lerna run test",
+        "deploy": "cd libs/assign-value-rule-engine && yarn build && npm publish"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+        "@babel/plugin-transform-react-constant-elements": "^7.5.0",
+        "@babel/plugin-transform-runtime": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/runtime": "^7.5.5",
+        "@dhis2/cli-style": "^4.1.1",
+        "babel-plugin-module-resolver": "^3.2.0",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "jest-enzyme": "^7.1.0",
+        "lerna": "^3.16.4",
+        "prop-types": "^15.7.2",
+        "rimraf": "^2.6.3",
+        "source-map-explorer": "^2.0.1"
+    }
+}

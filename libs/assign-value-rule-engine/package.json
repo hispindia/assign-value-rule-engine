@@ -1,0 +1,29 @@
+{
+    "name": "@hisp-amr/assign-value-rule-engine",
+    "version": "0.0.2",
+    "description": "DHIS2 program rule engine for assign data value actions",
+    "license": "BSD-3-Clause",
+    "main": "./build/cjs/index.js",
+    "module": "./build/es/index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "sideEffects": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hispindia/assign-value-rule-engine.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hispindia/assign-value-rule-engine/issues"
+    },
+    "scripts": {
+        "transpile": "babel src -d dist",
+        "start": "NODE_ENV=production yarn build:commonjs -w && NODE_ENV=production yarn build:modules -w",
+        "build:commonjs": "BABEL_ENV=commonjs babel src --out-dir ./build/cjs --copy-files --verbose",
+        "build:modules": "BABEL_ENV=modules babel src --out-dir ./build/es --copy-files --verbose",
+        "build": "NODE_ENV=production yarn build:commonjs && NODE_ENV=production yarn build:modules",
+        "prebuild": "rimraf build",
+        "prestart": "rimraf build",
+        "test": "react-scripts test"
+    }
+}

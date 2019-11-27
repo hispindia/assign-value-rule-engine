@@ -1,0 +1,25 @@
+{
+    "name": "whonet-program",
+    "version": "1.0.0",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^1.5.8",
+        "@dhis2/cli-style": "^4.2.0",
+        "prop-types": "*",
+        "redux-logger": "^3.0.6"
+    },
+    "dependencies": {
+        "@hisp-amr/assign-value-rule-engine": "^0.0.2"
+    },
+    "peerDependencies": {
+        "@dhis2/app-runtime": "*",
+        "@dhis2/ui-core": "*"
+    }
+}
