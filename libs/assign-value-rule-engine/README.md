@@ -34,7 +34,7 @@ const query = {
 }
 ```
 
-See [AppContent.js](../../examples/whonet-program/src/components/RuleRunner/RuleRunner.js)
+See [RuleRunner.js](../../examples/whonet-program/src/components/RuleRunner/RuleRunner.js)
 
 ```js
 import { runAssignValueRules } from '@hisp-amr/assign-value-rule-engine'
