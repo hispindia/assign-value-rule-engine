@@ -1,6 +1,6 @@
 {
     "name": "@hisp-amr/assign-value-rule-engine",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "DHIS2 program rule engine for assign data value actions",
     "license": "BSD-3-Clause",
     "main": "./build/cjs/index.js",

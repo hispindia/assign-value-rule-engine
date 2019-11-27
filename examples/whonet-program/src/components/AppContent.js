@@ -39,8 +39,6 @@ export const AppContent = () => {
             </ScreenCover>
         )
 
-        console.log(data.metadata)
-
     return (
         <main>
             <RuleRunner metadata={data.metadata} />

@@ -1,1 +1,0 @@
-export { getValues } from './getValues'

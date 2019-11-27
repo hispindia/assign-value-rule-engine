@@ -1,6 +1,6 @@
 import { runAssignValueRules } from './runAssignValueRules'
-import { values } from '../__test__'
-import { programStage } from '../__test__/output'
+import { values } from './__test__'
+import { programStage } from './__test__/output'
 
 describe('runAssignValueRules', () => {
     it('does not crash when there is a problem with a rule', () => {

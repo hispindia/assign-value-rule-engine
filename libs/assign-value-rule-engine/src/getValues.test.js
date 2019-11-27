@@ -1,5 +1,5 @@
 import { getValues } from './getValues'
-import { dataValues, programsOutput, values } from '../__test__'
+import { dataValues, programsOutput, values } from './__test__'
 
 describe('getValues', () => {
     it('returns data values as an object', () => {

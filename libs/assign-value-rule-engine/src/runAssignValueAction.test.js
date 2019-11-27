@@ -1,6 +1,6 @@
 import { runAssignValueAction } from './runAssignValueAction'
-import { values } from '../__test__'
-import { programStage } from '../__test__/output'
+import { values } from './__test__'
+import { programStage } from './__test__/output'
 import {
     SHOW_OPTION_GROUP,
     HIDE_FIELD,

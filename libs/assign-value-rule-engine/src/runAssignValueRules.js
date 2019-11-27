@@ -1,6 +1,6 @@
-import { runAssignValueAction } from '../runAssignValueAction'
-import { getAssignValueRules } from '../getAssignValueRules'
-import { getValues } from '../getValues'
+import { runAssignValueAction } from './runAssignValueAction'
+import { getAssignValueRules } from './getAssignValueRules'
+import { getValues } from './getValues'
 
 /**
  *

@@ -1,1 +1,1 @@
-export { runAssignValueRules } from './runAssignValueRules'
+export { runAssignValueRules } from './runAssignValueRules.js'
